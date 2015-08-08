@@ -1,0 +1,28 @@
+- place_name: Lakeport, 95453, California, United States
+  zoom: 10
+  center: 
+    - 38.980228994165444
+    - -122.94593811035156
+  tags: 
+    - userbookmark
+- place_name: California, United States
+  zoom: 11
+  center: 
+    - 39.069579487676535
+    - -123.05271148681639
+  tags: 
+    - userbookmark
+- place_name: California, United States
+  zoom: 11
+  center: 
+    - 39.069579487676535
+    - -123.05271148681639
+  tags: 
+    - userbookmark
+- place_name: 635 Mule Deer St NW, Salem, 97304, Oregon, United States
+  zoom: 15
+  center: 
+    - 44.9430073583014
+    - -123.08187246322632
+  tags: 
+    - userbookmark
