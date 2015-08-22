@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85,180,85</Parameter>
-  <Parameter name="center">-123.0172,44.9383,13</Parameter>
+  <Parameter name="center">-123.0771,44.9473,12</Parameter>
   <Parameter name="format">png8:m=h:c=64</Parameter>
   <Parameter name="maxzoom">19</Parameter>
   <Parameter name="minzoom">0</Parameter>
@@ -4866,45 +4866,26 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>country_label_line</StyleName>  </Layer>
 
-<Style name="regional" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke="#a273c1" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="2, 14" offset="0" />
-  </Rule>
-</Style>
 <Layer name="regional"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>regional</StyleName>  </Layer>
+      </Layer>
 
-<Style name="basic" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke="#6f6f6f" stroke-width="3.5" stroke-linecap="round" offset="2" />
-  </Rule>
-</Style>
 <Layer name="basic"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>basic</StyleName>  </Layer>
+      </Layer>
 
-<Style name="standard" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke="#1a84c7" stroke-width="3" stroke-linecap="round" offset="-2" />
-  </Rule>
-</Style>
 <Layer name="standard"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>standard</StyleName>  </Layer>
+      </Layer>
 
-<Style name="frequent" filter-mode="first">
-  <Rule>
-    <LineSymbolizer stroke="#fa3a4a" stroke-width="5" stroke-linecap="round" offset="0" />
-  </Rule>
-</Style>
 <Layer name="frequent"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>frequent</StyleName>  </Layer>
+      </Layer>
 
 <Style name="glen_creek_transit_center" filter-mode="first">
   <Rule>
-    <MarkersSymbolizer marker-type="ellipse" fill="#006c71" stroke-width="1" stroke="#ffffff" />
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MarkersSymbolizer marker-type="ellipse" stroke="#006c71" stroke-width="3" width="13" fill="#ffffff" />
   </Rule>
 </Style>
 <Layer name="glen_creek_transit_center"
@@ -7590,12 +7571,13 @@
 <Style name="west_salem_connector_points" filter-mode="first">
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
-    <MarkersSymbolizer marker-type="ellipse" fill="#006c71" stroke-width="1" stroke="#ffffff" />
-    <TextSymbolizer size="10" fill="#444455" halo-fill="#ffffff" halo-radius="2" halo-rasterizer="fast" fontset-name="fontset-3" placement-type="simple" allow-overlap="true" minimum-distance="10" wrap-width="200" wrap-before="true" avoid-edges="false" placements="S,N,E,W" dy="8" ><![CDATA[[Name]]]></TextSymbolizer>
+    <MarkersSymbolizer marker-type="ellipse" stroke="#006c71" stroke-width="3" width="13" fill="#ffffff" />
+    <TextSymbolizer size="10" fill="#444455" halo-fill="#ffffff" halo-radius="2" halo-rasterizer="fast" fontset-name="fontset-3" placement-type="simple" allow-overlap="true" minimum-distance="10" wrap-width="300" wrap-before="true" avoid-edges="false" placements="S,N,E,W" dy="11" ><![CDATA[[Name]]]></TextSymbolizer>
   </Rule>
   <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <MarkersSymbolizer marker-type="ellipse" fill="#006c71" stroke-width="1" stroke="#ffffff" />
+    <MarkersSymbolizer marker-type="ellipse" stroke="#006c71" stroke-width="3" width="13" fill="#ffffff" />
   </Rule>
 </Style>
 <Layer name="west_salem_connector_points"
