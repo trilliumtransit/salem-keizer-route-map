@@ -7572,7 +7572,7 @@
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
     <MarkersSymbolizer marker-type="ellipse" stroke="#006c71" stroke-width="3" width="13" fill="#ffffff" />
-    <TextSymbolizer size="10" fill="#444455" halo-fill="#ffffff" halo-radius="2" halo-rasterizer="fast" fontset-name="fontset-3" placement-type="simple" allow-overlap="true" minimum-distance="10" wrap-width="300" wrap-before="true" avoid-edges="false" placements="S,N,E,W" dy="11" ><![CDATA[[Name]]]></TextSymbolizer>
+    <TextSymbolizer size="10" fill="#444455" halo-fill="#ffffff" halo-radius="2" halo-rasterizer="fast" fontset-name="fontset-3" placement-type="simple" allow-overlap="true" minimum-distance="10" wrap-width="300" wrap-before="true" avoid-edges="true" placements="S,N,E,W" dy="11" ><![CDATA[[Name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>

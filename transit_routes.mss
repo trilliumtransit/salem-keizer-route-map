@@ -47,7 +47,7 @@
   text-min-distance:10;
   text-wrap-width: 300;
   text-wrap-before: true;
-  text-avoid-edges: false;
+  text-avoid-edges: true;
   text-placements: "S,N,E,W";
  // text-dx: 8;
   text-dy: 11;
