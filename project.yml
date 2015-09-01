@@ -17,7 +17,7 @@ center:
   - 12
 description: ''
 format: "png8:m=h:c=64"
-interactivity_layer: ''
+interactivity_layer: west_salem_connector_points
 layers: 
   - landuse
   - waterway
@@ -35,7 +35,6 @@ layers:
   - basic
   - standard
   - frequent
-  - glen_creek_transit_center
   - country_label
   - marine_label
   - state_label
@@ -58,4 +57,4 @@ styles:
   - transit_routes.mss
   - label.mss
   - poi_classic.mss
-template: ''
+template: "<strong>{{Name}}</strong>"

@@ -35,30 +35,21 @@
   marker-width: 13;
   marker-fill: white;
 [zoom > 14] {
-  text-name: [Name];
-  text-size: 10;
-  text-fill: @transport_text;
-  text-halo-fill: #fff;
-  text-halo-radius: 2;
-  text-halo-rasterizer: fast;
-  text-face-name: @sans;
-  text-placement-type: simple;
-  text-allow-overlap: true;
-  text-min-distance:10;
-  text-wrap-width: 300;
-  text-wrap-before: true;
-  text-avoid-edges: true;
-  text-placements: "S,N,E,W";
- // text-dx: 8;
-  text-dy: 11;
+//  text-name: [Name];
+//  text-size: 10;
+//  text-fill: @transport_text;
+//  text-halo-fill: #fff;
+//  text-halo-radius: 2;
+//  text-halo-rasterizer: fast;
+//  text-face-name: @sans;
+//  text-placement-type: simple;
+//  text-allow-overlap: true;
+//  text-min-distance:10;
+//  text-wrap-width: 300;
+//  text-wrap-before: true;
+//  text-avoid-edges: true;
+//  text-placements: "S,N,E,W";
+//  text-dx: 8;
+//  text-dy: 11;
   }
 }
-
-#glen_creek_transit_center [zoom > 12]{
-  marker-type: ellipse;
-  marker-line-color:  #006c71;
-  marker-line-width: 3;
-  marker-width: 13;
-  marker-fill: white;
-}
-
