@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85,180,85</Parameter>
-  <Parameter name="center">-123.0812,44.9471,15</Parameter>
+  <Parameter name="center">-123.0769,44.9479,15</Parameter>
   <Parameter name="format">png8:m=h:c=64</Parameter>
   <Parameter name="interactivity_layer">west_salem_connector_points</Parameter>
   <Parameter name="interactivity_fields">Name</Parameter>
