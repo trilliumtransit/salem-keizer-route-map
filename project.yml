@@ -1,6 +1,6 @@
 _prefs: 
   baselayer: ''
-  mapid: trilliumtransit.7c0460cb
+  mapid: trilliumtransit.0394bf39
   saveCenter: true
 _properties: 
   bridge: 
@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85
 center: 
-  - -123.0771
-  - 44.9473
-  - 12
+  - -123.0812
+  - 44.9471
+  - 15
 description: ''
 format: "png8:m=h:c=64"
 interactivity_layer: west_salem_connector_points
@@ -45,6 +45,7 @@ layers:
   - road_label
   - waterway_label
   - housenum_label
+  - west_salem_connector_center
   - west_salem_connector_points
 maxzoom: 19
 minzoom: 0
