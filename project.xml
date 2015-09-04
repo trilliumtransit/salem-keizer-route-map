@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85,180,85</Parameter>
-  <Parameter name="center">-123.0769,44.9479,15</Parameter>
+  <Parameter name="center">-123.0558,44.9476,15</Parameter>
   <Parameter name="format">png8:m=h:c=64</Parameter>
   <Parameter name="interactivity_layer">west_salem_connector_points</Parameter>
   <Parameter name="interactivity_fields">Name</Parameter>
@@ -7565,7 +7565,7 @@
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <PointSymbolizer transform="scale(0.2)" file="img/west-salem-connect-logo.svg" allow-overlap="true" />
+    <PointSymbolizer transform="scale(0.15)" file="img/west-salem-connect-logo.svg" allow-overlap="true" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000</MaxScaleDenominator>
@@ -7574,7 +7574,7 @@
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
-    <PointSymbolizer transform="scale(0.3)" file="img/west-salem-connect-logo.svg" allow-overlap="true" />
+    <PointSymbolizer transform="scale(0.2)" file="img/west-salem-connect-logo.svg" allow-overlap="true" />
   </Rule>
 </Style>
 <Layer name="west_salem_connector_center"

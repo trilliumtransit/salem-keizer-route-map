@@ -33,8 +33,8 @@
 #west_salem_connector_center[zoom > 11] {
   point-file: url("img/west-salem-connect-logo.svg");
   point-allow-overlap: true; 
-[zoom > 11][zoom <= 13] {point-transform:"scale(0.2)";}
-[zoom = 14]  {point-transform:"scale(0.3)";}
+[zoom > 11][zoom <= 13] {point-transform:"scale(0.15)";}
+[zoom = 14]  {point-transform:"scale(0.2)";}
 [zoom > 14]  {point-transform:"scale(0.5)";}
 }
 
